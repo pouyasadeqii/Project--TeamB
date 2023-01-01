@@ -1,0 +1,146 @@
+.pfeature1 {
+  position: absolute;
+  width: 245px;
+  height: 40px;
+  left: 212px;
+  right: 25px;
+  top: 194px;
+  font-family: 'IRANSansX';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.pfeature2 {
+  /*position: absolute;*/
+  width: 259px;
+  height: 40px;
+  left: 15px;
+  top: 194px;
+  font-family: 'IRANSansX';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.pfeature3 {
+  /*position: absolute;*/
+  width: 274px;
+  height: 40px;
+  left: 7px;
+  top: 194px;
+  font-family: 'IRANSansX';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.pfeature4 {
+  /*position: absolute;*/
+  width: 288px;
+  height: 64px;
+  left: 0px;
+  top: 194px;
+  font-family: 'IRANSansX';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.hfeature4 {
+  /*position: absolute;*/
+  width: 176px;
+  height: 30px;
+  left: 56px;
+  top: 148px;
+  font-family: 'IRANSansX';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.hfeature3 {
+  /*position: absolute;*/
+  width: 199px;
+  height: 30px;
+  left: 45px;
+  top: 148px;
+  font-family: 'IRANSansX';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.hfeature2 {
+  /*position: absolute;*/
+  width: 212px;
+  height: 30px;
+  left: 43px;
+  top: 148px;
+  font-family: 'IRANSansX';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.hfeature1 {
+  /*position: absolute;*/
+  width: 108px;
+  height: 30px;
+  left: 91px;
+  top: 148px;
+  font-family: 'IRANSansX';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.hfeature0 {
+  /*position: absolute;*/
+  width: 565px;
+  height: 24px;
+  left: 438px;
+  top: 2390px;
+  font-family: 'IRANSansX';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.pfeature0 {
+  /*position: absolute;*/
+  width: 425px;
+  height: 24px;
+  right: 533px;
+  top: 2422px;
+  margin-right: 27px;
+  font-family: 'IRANSansX';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+}
+
+.mgreen {
+  color: #6Acb47;
+}
+

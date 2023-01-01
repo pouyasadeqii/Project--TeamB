@@ -1,0 +1,160 @@
+body{
+    background-color: gray;
+}
+@media screen and (min-width: 320px) and (max-width:480px)
+
+ {
+  div.slider{
+    overflow: hidden;
+    top: -150px;
+    width: 90%;
+    height: 500px;
+    position: absolute;
+    left: 16px;
+  }
+  img{
+    overflow: hidden;
+    position: relative;
+    left: 50px;
+  }
+  p{
+    width: 100%;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 0px;
+
+  }
+  div P{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70%;
+    word-wrap: break-word;
+  }
+  a.next{
+    box-shadow: 0 0 10px 0px black;
+    background-color:#FFFFFF;
+    width: 40px;
+    position: absolute;
+    right: -2px;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+  a.prev{
+    top:269px;
+    background-color:#FFFFFF;
+    box-shadow: 0 0 10px 0px black;
+    width: 40px;
+    position: absolute;
+    left: -2px;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+}
+ 
+/* /////////////// */
+.slider {
+  margin-top: 160px;
+  position: absolute;
+  width: 856px;
+  height: 242px;
+  left: 200px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 32px rgba(117, 117, 117, 0.32);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.active {
+  display: block;
+}
+.prev,
+.next {
+  font-size: 40px;
+  text-decoration: none;
+  color: #000;
+  position: absolute;
+  top: 45%;
+  font-weight: 700;
+}
+.prev {
+  box-shadow: 0 0 10px 0px black;
+  width: 42px;
+  height: 42px;
+  top: 250px;
+  left: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.next {
+  box-shadow: 0 0 10px 0px black;
+  top: 267px;
+  right: 250px;
+  text-align: center;
+  width: 42px;
+ height: 42px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+}
+.next,
+.prev{
+    background-color:white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    z-index: 1;
+}
+.author {
+  display: inline-flex;
+  position: absolute;
+  left: 33%;
+  bottom: 65%;
+  font-size: 22px;
+}
+.star {
+  position: absolute;
+  left: 33%;
+  bottom: 65%;
+  color: #6c9d4e;
+}
+.text {
+  text-align: left;
+  position: absolute;
+  bottom: 15%;
+  margin-left: 33%;
+  margin-right: 10%;
+  float: right;
+  display: block;
+  line-height: 1.5em;
+  font-weight: bold;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+p {
+  position: absolute;
+  width: 368px;
+  height: 105px;
+  right:0px;
+  top: 40px;
+  left: 50px;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 240.5%;
+  /* or 38px */
+
+  text-align: right;
+
+  /* 757575 */
+
+  color: #757575;
+}
+img{
+    float: right;
+}

@@ -1,0 +1,419 @@
+@import url("../../font/IRANSans/css/fontiran.css");
+@import url("../../style/normalize.css");
+
+body {
+  font-family: "IRANSans";
+  overflow-x: hidden;
+  max-width: 1440px;
+}
+
+.hero {
+  margin: 32px auto 80.33px auto;
+  margin-top: 32px;
+  margin-bottom: 80.33px;
+  position: relative;
+  z-index: 10;
+}
+
+.mesaage-title {
+  /* font-weight: 400; */
+  font-size: 18px;
+  line-height: 27px;
+  color: #070707;
+}
+
+.mesaage-content {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #797979;
+}
+
+.list-item a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #070707;
+}
+
+.frame-6 {
+  /* display: flex;
+  align-items: center;
+  gap: 16px; */
+  z-index: 10;
+}
+.sign-in {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.sign-up {
+  width: 68px;
+  height: 26px;
+  /* background: #ffffff; */
+  /* border-radius: 32px; */
+  color: #44bd66;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.frame-8 {
+  /* display: flex;
+  align-items: center; */
+  /* gap: 10px; */
+  width: 128px;
+  height: 25px;
+  left: 113px;
+  top: 0px;
+  z-index: 10;
+}
+
+.call-text {
+  background: linear-gradient(180deg, #5e9952 0%, rgba(94, 153, 82, 0.45) 100%);
+  width: 51px;
+  height: 25px;
+  padding: 7px;
+  font-size: 8px;
+  line-height: 12px;
+  cursor: default;
+}
+
+.call-number {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  cursor: default;
+}
+
+/* .call-detail {
+  display: flex;
+  gap: 5px;
+} */
+.rectangle {
+  position: absolute;
+  width: 832px;
+  height: 832px;
+  left: -519px;
+  top: -172.19px;
+
+  background: linear-gradient(
+    180deg,
+    #5ca55f 0%,
+    #7cba50 57.4%,
+    #7cba50 65.1%,
+    #7ab950 80.73%,
+    #93c944 100%
+  );
+  border-radius: 40px;
+  transform: rotate(-7.1deg);
+}
+
+.introduction {
+  margin-bottom: 114.33px;
+}
+
+.introduction-icon {
+  z-index: 10;
+  opacity: 0.2;
+}
+
+.introduction-title-1 {
+  line-height: 24px;
+  color: #757575;
+}
+.introduction-title-2 {
+  line-height: 36px;
+  color: #434343;
+}
+.introduction-span {
+  color: #6ac747;
+}
+
+.introduction-content {
+  font-weight: 400;
+  line-height: 24px;
+  color: #5e5e5e;
+  width: 574px;
+  /* font-size: 16px; */
+  /* margin-bottom: 44px; */
+}
+
+/* .btn-container {
+  display: flex;
+  gap: 24px;
+} */
+
+.resgister-btn {
+  outline: none;
+  background: #6ac847;
+  width: 165px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 6px 17px;
+  filter: drop-shadow(4px 4px 8px rgba(106, 200, 71, 0.4));
+  /* border-radius: 32px; */
+  /* font-weight: 600; */
+}
+
+.advise-btn {
+  outline: none;
+  background: #ffb931;
+  width: 165px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 6px 23px;
+  filter: drop-shadow(0px 4px 8px rgba(255, 185, 49, 0.4));
+  /* margin-bottom: 16px; */
+  /* font-weight: 600; */
+  /* border-radius: 32px; */
+}
+
+.advise-detail {
+  display: flex;
+  gap: 5px;
+}
+
+.call-span {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #5e5e5e;
+  cursor: default;
+}
+
+.customer {
+  height: 100px;
+  gap: 35px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(174, 174, 174, 0.25);
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+/* CTA-2 styles */
+
+.cta-2 {
+  height: 101px;
+  padding: 22px 32px;
+  background: #5e6168;
+  box-shadow: 6px 2px 16px rgba(117, 117, 117, 0.25);
+  margin: 103px auto;
+}
+.cta2-inner /*abbas*/ {
+  padding: 22px 32px 22px 40px;
+  background: #5e6168;
+  box-shadow: 6px 2px 16px rgba(117, 117, 117, 0.25);
+  border-radius: 8px;
+}
+
+.cta-2-title {
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.cta-2-content {
+  line-height: 24px;
+  color: #ededed;
+}
+
+.btn {
+  display: block; /*abbas*/
+  float: left; /*abbas*/
+  width: 230px;
+  outline: none;
+  height: 41px;
+  font-size: 12px;
+  line-height: 18px;
+  background: #1f94ce;
+  box-shadow: 4px 4px 16px rgba(31, 148, 206, 0.4);
+  padding: 11px 28px;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background: #1f94ce;
+  color: #ffffff;
+}
+
+/* =========================================
+Suggestion hero
+========================================= */
+
+/* Abbas */
+section.abbas.hero {
+  position: relative;
+}
+section.abbas.hero::before {
+  content: "";
+  position: absolute;
+  width: 532px;
+  height: 832px;
+  left: -180px;
+  top: 0;
+  transform-origin: left bottom;
+
+  background: linear-gradient(
+    180deg,
+    #5ca55f 0%,
+    #7cba50 57.4%,
+    #7cba50 65.1%,
+    #7ab950 80.73%,
+    #93c944 100%
+  );
+  border-radius: 0 0 40px 0;
+  transform: rotate(-7.1deg);
+  z-index: -2;
+}
+
+section.abbas.hero .header .topheader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+section.abbas.hero .header .topheader .call-text {
+  background: linear-gradient(180deg, #5e9952 0%, rgba(94, 153, 82, 0.45) 100%);
+  padding: 7px;
+  font-size: 8px;
+  margin-left: 10px;
+}
+section.abbas.hero .header .topheader .call-number {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  padding-right: 8px;
+}
+section.abbas.hero .header .topheader .call-number img {
+  width: 15px;
+  height: 15px;
+}
+section.abbas.hero .header .bottomheader {
+  margin-top: 24px;
+}
+section.abbas.hero .header .bottomheader .logo {
+  display: flex;
+  align-items: center;
+}
+section.abbas.hero .header .bottomheader .logo .brandname {
+  margin-right: 11px;
+}
+section.abbas.hero .header .bottomheader .logo .brandname h1 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #070707;
+}
+section.abbas.hero .header .bottomheader .logo .brandname h6 {
+  font-weight: 500;
+  font-size: 12px;
+  color: #797979;
+}
+
+section.abbas.hero .header .bottomheader .menu {
+}
+section.abbas.hero .header .bottomheader .menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.abbas.hero .header .bottomheader .menu ul li {
+  margin: 0 8px;
+}
+section.abbas.hero .header .bottomheader .menu ul li a {
+  display: block;
+  padding: 8px;
+}
+
+section.abbas.hero .header .bottomheader .login {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+section.abbas.hero .header .bottomheader .login a {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+section.abbas.hero .header .bottomheader .login a.register-link {
+  color: #44bd66;
+  padding: 4px 15px;
+  background-color: #fff;
+  border-radius: 32px;
+  margin-right: 16px;
+}
+
+section.abbas.hero .main-content {
+  margin: 100px 0 160px;
+}
+
+section.abbas.hero .main-content p.slogan {
+  font-weight: 700;
+  font-size: 16px;
+  color: #757575;
+}
+section.abbas.hero .main-content h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #434343;
+}
+section.abbas.hero .main-content h1 span {
+  color: #6ac747;
+  font-weight: bold;
+}
+section.abbas.hero .main-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5e5e5e;
+}
+section.abbas.hero .main-content .button-link {
+  margin-top: 42px;
+  display: flex;
+  align-items: center;
+}
+section.abbas.hero .main-content .button-link a {
+  display: block;
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 9px 17px;
+  border-radius: 32px;
+  background-color: #6ac847;
+  filter: drop-shadow(4px 4px 8px rgba(106, 200, 71, 0.4));
+  text-decoration: none;
+}
+section.abbas.hero .main-content .button-link div {
+  position: relative;
+}
+section.abbas.hero .main-content .button-link div a {
+  background-color: #ffb931;
+  filter: drop-shadow(0px 4px 8px rgba(255, 185, 49, 0.4));
+  margin-right: 24px;
+}
+section.abbas.hero .main-content .button-link .call-span {
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+  bottom: -31px;
+  left: 40px;
+}
+
+section.abbas.hero img.shapes {
+  display: block;
+  opacity: 0.2;
+  float: left;
+}
+section.abbas.hero .customer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
